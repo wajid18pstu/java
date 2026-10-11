@@ -1,0 +1,6 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "$env:Path = 'D:\\cpp\\tools\\mingw64\\bin;' + $env:Path; Set-Location $dir; & 'D:\\cpp\\tools\\mingw64\\bin\\g++.exe' -std=c++17 -static -Wall -Wextra -pedantic $fileName -o .\\$fileNameWithoutExt.exe; if ($LASTEXITCODE -eq 0) { & .\\$fileNameWithoutExt.exe }"
+    }
+}
